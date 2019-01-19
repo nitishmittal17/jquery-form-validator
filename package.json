@@ -1,0 +1,42 @@
+{
+  "name": "jquery-form-validator",
+  "version": "1.0.0",
+  "description": "A light weight jquery form validator which allows you to add validations to your form in a declarative manner.",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./build/webpack.config.js",
+    "build": "webpack --config ./build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitishmittal17/jquery-form-validator.git"
+  },
+  "keywords": [
+    "jquery",
+    "form",
+    "validator"
+  ],
+  "author": "Nitish Mittal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitishmittal17/jquery-form-validator/issues"
+  },
+  "homepage": "https://github.com/nitishmittal17/jquery-form-validator#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
